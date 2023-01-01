@@ -1,2 +1,250 @@
 # calendar
-Calendar program using Python
+Calendar program using Python.
+
+#code
+
+print("---------------     JANUARY     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+
+for january in range(1,32):
+    print(january,end="\t")
+    if january % 7 == 0:
+        print("\n")
+print("\n")
+print("---------------     FEBRUARY     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for february in range(1,29):
+    print(february,end="\t")
+    if february in [4,11,18,25]:
+       print("\n")
+print("\n")
+print("---------------     MARCH     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for march in range(1,32):
+       print(march,end="\t")
+       if march in [4,11,18,25]:
+           print("\n")
+print("\n")
+print("---------------     APRIL     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for april in range(1,31):
+    print(april,end="\t")
+    if april in [1,8,15,22,29]:
+       print("\n")
+print("\n")
+print("---------------     MAY     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+
+for may in range(1,32):
+       print(may,end="\t")
+       if may in [6,13,20,27]:
+           print("\n")
+print("\n")
+print("---------------     JUNE     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for june in range(1,31):
+    print(june,end="\t")
+    if june in [3,10,17,24]:
+        print("\n")
+print("\n")
+print("---------------     JULY     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for july in range(1,32):
+    print(july,end="\t")
+    if july in [1,8,15,22,29]:
+        print("\n")
+print("\n")
+print("---------------     AUGUST     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for august in range(1,32):
+    print(august,end="\t")
+    if august in [5,12,19,26]:
+        print("\n")
+print("\n")
+print("---------------     SEPTEMBER     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for september in range(1,31):
+    print(september,end="\t")
+    if september in [2,9,16,23,30]:
+        print("\n")
+print("\n")
+print("---------------     OCTOBER     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+
+for october in range(1,32):
+    print(october,end="\t")
+    if october % 7 == 0:
+        print("\n")
+print("\n")
+print("---------------     NOVEMBER     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for november in range(1,31):
+    print(november,end="\t")
+    if november in [4,11,18,25]:
+        print("\n")
+print("\n")
+print("---------------     DECEMBER     ---------------")
+print()
+print("SUN",end="\t")
+print("MON",end="\t")
+print("TUE",end="\t")
+print("WED",end="\t")
+print("THU",end="\t")
+print("FRI",end="\t")
+print("SAT",end="\n")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+print(" ",end="\t")
+
+for december in range(1,32):
+    print(december,end="\t")
+    if december in [2,9,16,23,30]:
+        print("\n")
+print("\n")
+print("\nREGULAR HOLIDAYS 2023",end="\n\n")
+print("New year's day",end="\t")
+print(" January   1",end="\n")
+print("Maundy Thursday",end="\t")
+print(" April     6",end="\n")
+print("Good Friday",end="\t")
+print(" April     7",end="\n")
+print("Day of Valor ",end="\t")
+print(" April     9",end="\n")
+print("Labor Day",end="\t")
+print(" May       1",end="\n")
+print("IndependenceDay",end="\t")
+print(" June      12",end="\n")
+print("NationalHeroesDay August   28",end="\n")
+print("Bonifacio Day",end="\t")
+print(" November  30",end="\n")
+print("Christmas Day",end="\t")
+print(" December  25",end="\n")
+print("Rizal Day",end="\t")
+print(" December  30")
+
+
+
+
+
+
+
